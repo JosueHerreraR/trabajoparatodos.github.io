@@ -1,1 +1,5 @@
-# trabajoparatodos.github.io
+# trabajoparatodos
+
+Presentación del prototipo perteneciente al Hackaton "Hackeando Brechas 2022"
+
+Link de la presentación:
