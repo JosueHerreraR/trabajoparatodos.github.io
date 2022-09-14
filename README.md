@@ -1,5 +1,5 @@
-#Trabajoparatodos.com
+<h1>Trabajo de servicio social</h1>
 
-Presentación del prototipo perteneciente al Hackaton "Hackeando Brechas 2022"
+Aqui subiremos avances del trabajo
 
-Link de la presentación: https://josueherrerar.github.io/trabajoparatodos.github.io/
+Link de la presentación:
