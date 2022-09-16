@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta name="autor" content="Abdiel Cen, Luis Chuc, Joel Herrera, Jose Poot y Wilfrido Puc"/>
+            <meta name="copyright" content=""/> 
+            <meta name="description" content="Sistema de Control Escolar de Educacion Media Superior">
+            <title>Administrar Usuario</title>
+            <link rel="icon" type="image/jpg" href="">
+   
+    </head>    
+    <body>   
+        <header>
+            <!-- usar de ser necesario -->
+        </header>
+        
+
+        <!-- Titulo de la pagina -->
+        <h1>ADMINISTRAR USUARIO</h1>
+
+        <form action="menu-administrador.html">
+            <button>Regresar</button>
+        </form>
+        <br>
+
+        <div>
+            <td>Administrador</td>
+            <td><a href="actualizar-administrador.html"><button>Actualizar Contraseña</button></a></td>
+        </div>
+        <br>
+        <div>
+            <td>Nuevo Usuario</td>
+            <td><a href="crear-usuario.html"><button>Crear Usuario</button></a></td>
+        </div>
+
+        <form class="example" target="iframe_box" method="post" action="buscar-usuario.html">
+            <p>BUSCAR USUARIO: </p>		      
+            <div >
+                <input type="text" placeholder="Buscar..." name="">
+                <button type="submit"><i class="fa fa-search"></i>🔎</button>
+            </div>
+        </form>
+
+        <!-- hace que aparesca los resultados de la busqueda -->
+        <div> <iframe  name="iframe_box" id="iframe_box" class="iframe" scrolling="no" frameborder="0"  width="100%" height="700px"></iframe></div>
+
+        <script> 
+            var div = document.getElementById("iframe_box"); 
+            div.onload = function() 
+            {           
+            div.style.height = div.contentWindow.document.body.scrollHeight + 'px'; 
+            div.style.width =  div.contentWindow.document.body.scrollWidth+'px';
+            } 
+    	</script> 
+          
+    
+  
+        <footer>
+            <!-- usar de ser necesario -->
+        </footer>       
+    </body>
+<html>
