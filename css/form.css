@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-repeat: no repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Formularios*/
+
+.container-form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.cont-form{
+    background-color: #0A1E35;
+    border-radius: 30px;
+    padding: 40px;
+}
+.cont-form img{
+    width: 100px;
+    height: 100px;
+    margin-left: 110px;
+}
+h2{
+    text-align: center;
+    color: #fdfbfb;
+    padding: 10px;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 2px solid white;
+    align-items: center;
+    justify-content: center;
+}
+.check{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+label{
+    color: white;
+}
+label:hover{
+    color: #b8b8b8;
+}
+form a{
+    color: white;
+    text-decoration: none;
+    margin-left: 45px;
+}
+form a:hover{
+    color: #b8b8b8;
+}
+.boton{
+    width: 100%;
+    border-radius: 20px;
+    background-color: #AF0171;
+    color: white;
+    margin-top: 30px;
+    border: none;
+    border-bottom: 4px solid #790252;
+}
+.boton:active{
+    background-color: #790252;
+}
+
+/*Panel de opciones*/
+
+.container-botom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.cont-botom{
+    background-color: black;
+    border-radius: 30px;
+    justify-content: center;
+}
+.botom{
+    width: 250px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: #AF0171;
+    color: white;
+    border: none;
+    border-bottom: 4px solid #790252;
+    margin: 20px;
+}
+
+/*Tablas*/
+
+.container-table{
+    margin: 150px auto;
+    width: 600px;
+}
+.titulo{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.centro{
+    text-align: center;
+    justify-content: center;
+}
+table{
+    width: 100%;
+    font-size: 20px;
+    text-align: left;
+    border-collapse: collapse;
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+th, td{
+    border: solid 1px black;
+    padding: 20px;
+}
+thead{
+    background-color: #0A1E35;
+    color: #fdfbfb;
+    border-bottom: solid 5px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #AF0171;
+    color: white;
+}
