@@ -83,7 +83,7 @@
                 </ul>
                 <ul class="menu_footer">
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">PAEMS</a></li>
+                    <li><a href="#">PAENMS</a></li>
                     <li><a href="#">Infraestructura</a></li>
                 </ul>
                 <p>Todos los derechos reservados &copy; 2022 Secretaria de Educación Publica y Universidad de Quintana Roo</p>
