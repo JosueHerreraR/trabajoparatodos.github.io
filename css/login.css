@@ -1,114 +1,92 @@
-:root{
-    --azul:#790252; 
-    --azulOscuro:#4C0033;
-    --azulGris:#E80F88;
-    --blanco:#fff;
-    --fuente:'Quicksand', sans-serif;
-}
-html{
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-*,*::after, *::before{
-    box-sizing: inherit;
-}
-
-body{
-    font-family: var(--fuente);
-    background-color: var(--azulOscuro);
-    display: flex;
-    align-items: center;
-    height: 100vh;
-}
-
-.contenedor{
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 95%;
-}
-
-.imagen-formulario{
-    background-image: url('../img/secretaria.jpg');
-    background-position: center center;
-    background-size: cover;
-    height: 200px;
-    flex: 0 0 calc(60%);
-    position: relative;
-    
-}
-.imagen-formulario::before{
-   content: '';
-   position: absolute;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
-   background: linear-gradient(to right,rgba(141,169,196,.5), rgba(19, 64, 116, .5) );
-   
-}
-
-@media(min-width:768px){
-    .imagen-formulario{
-        height: auto;
-        background-position: right;
-    }
-
-}
-@media(min-width:1200px){
-    .imagen-formulario{
-        background-position: center;
-    }
-}
-
-@media(min-width:768px){
-    .contenedor-formulario{
-        display: flex;
-    }
-}
-
-.formulario{
-    padding: 50px;
-    background-color: var(--azul);
-}
-.texto-formulario h2, .input label, .password-olvidada a, .texto-formulario p{
-    color: var(--blanco);
-}
-.texto-formulario h2{
-    font-size: 40px;
-    text-align: center;
-}
-.texto-formulario p{
-    font-size: 22px;
-    text-align: center;
-}
-.input label{
-    display: block;
-    font-size: 22px;
-    font-weight: bold;
-    margin: 20px 0;
-}
-.password-olvidada a{
-    display: inline-block;
-    margin-top: 20px;
-    font-size: 22px;
-}
-.input input{
+.container-form{
+    height: 100%;
     width: 100%;
-    padding: 10px 16px;
-    border-radius: 5px;
-    outline: none;
 }
-.input input[type="submit"]{
-    background-color: var(--azulGris);
-    color: var(--blanco);
-    font-size: 22px;
-    font-weight: bold;
-    border: none;
-    margin-top: 20px;
-    transition: background-color .3s ease-in-out;
+.form-register img{
+    background: white;
+    border-radius: 30%;
+    width: 120px;
+    height: 80px;
 }
-.input input[type="submit"]:hover{
+.form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-register h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.form-register h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.controls {
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ab0a3d;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+}
+.label{
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+.form-register a {
+    color: white;
+    text-decoration: none;
+}
   
+.form-register a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.submit-btn{
+    width: 100%;
+    padding: 10px 30px;
     cursor: pointer;
-    background-color: var(--azulOscuro);
+    display: block;
+    margin: auto;
+    background: #ab0a3d;
+    color: white;
+    border: 0px;
+    outline: none;
+    border-radius: 30px;
+} 
+.submit-btn:hover{
+    background: #440412; 
 }
